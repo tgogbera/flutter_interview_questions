@@ -560,7 +560,6 @@ Whether you are building a mobile app or a web application, State Management is 
 
 - **Ephemeral State:** Ephemeral state is also called UI state or local state, and it pertains to a particular widget. In other words, it is a state that is contained within the specific widget. By means of StatefulWidget, Flutter provides support for this state.
 
-- **App State:** This is different from the ephemeral state since it is a state that we intend to share across different parts of the app and which we want to maintain between sessions. These types of states can thus be used globally. By means of scoped_model, Flutter provides support for this state.
-The following diagram gives a better explanation of the differences between ephemeral and app states:
+- **App State:** This is different from the ephemeral state since it is a state that we intend to share across different parts of the app and which we want to maintain between sessions. These types of states can thus be used globally. The following diagram gives a better explanation of the differences between ephemeral and app states:
 
 ![](images/flutter-lecture/Flutter_State_Management.png)
